@@ -31,4 +31,5 @@ SELECT
     ROUND(estimated_clv, 2) AS estimated_clv
 FROM CLVCalculation
 WHERE tenure_months > 0
-ORDER BY estimated_clv DESC;select * from db.table4
+ORDER BY estimated_clv DESC;
+
